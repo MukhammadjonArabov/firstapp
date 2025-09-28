@@ -1,0 +1,39 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Django
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# Virtual env
+venv/
+env/
+ENV/
+*.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS fayllar
+.DS_Store
+Thumbs.db
+
+# Migrations cache (faqat initial qoldirish mumkin)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
+
+# Coverage / test
+htmlcov/
+.coverage
+.pytest_cache/
